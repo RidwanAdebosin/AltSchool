@@ -261,9 +261,12 @@
       <form>
         <label for="URL"></label>
         <input type="" placeholder="Paste URL here..." class="input" />
-        <label for="Domain"></label>
-        <input type="select" placeholder="Choose Domain" class="input2" />
-        <img src="./assets/drop.png" width="10px" class="dropdown1" />
+        <select name="domain" class="input3" required>
+          <option value="" disabled selected hidden>Choose Domain</option>
+          <option value="domain">School of Engineering</option>
+          <option value="domain">School of Data</option>
+          <option value="domain">School of Product</option>
+        </select>
         <label for="Type"></label>
         <input type="name" placeholder="Type Alias here" class="input2" />
         <button class="trim-button">
@@ -459,7 +462,7 @@
         </div>
       </div>
     </aside>
-    
+
     <!-- FOOTER -->
     <footer>Terms of Service | Security | Scissor 2023</footer>
     <div class="footer-image">
